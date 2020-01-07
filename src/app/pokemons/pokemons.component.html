@@ -1,6 +1,6 @@
 <p class="whose">{{whose}}</p>
 <div *ngFor="let pokemon of pokemons">
-    <div class="pokemon" *ngIf="pokemon.isUse">
+    <div class="pokemon" [class.down]="pokemon.isDown" *ngIf="pokemon.isUse">
         <div class="radius">
             <p>{{pokemon.name}}</p>
         </div>

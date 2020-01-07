@@ -29,8 +29,10 @@ app-pokemons {
     color: #9E788F;
 }
 
-.pokemon .radius.down {
+.pokemon.down > div {
     background-color: #a9a9a9;
+}
+.pokemon.down > div > p {
     color: #E3DFFF;
 }
 .pokemon.none {

@@ -1,0 +1,49 @@
+app-pokemons {
+    display: block;
+    background-color: #FCA2CC;
+    width: 200px;
+    height: 100%;
+}
+
+.whose {
+    margin: 0;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 2em;
+    color: #9E788F;
+}
+
+.pokemon {
+    background-color: #D3C0CD;
+    width: 200px;
+    height: 200px;
+}
+.radius {
+    position: relative;
+    background-color: #E3DFFF;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: #9E788F;
+}
+
+.pokemon .radius.down {
+    background-color: #a9a9a9;
+    color: #E3DFFF;
+}
+.pokemon.none {
+    display: none;;
+}
+
+.pokemon p {
+    margin: 0;
+    word-wrap: break-word;
+    width: 180px;
+    height: 180px;
+    font-size: 1.8em;
+    text-align: center;
+    line-height: 180px;
+    color:#9E788F;
+}

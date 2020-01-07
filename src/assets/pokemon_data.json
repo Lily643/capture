@@ -1,0 +1,56 @@
+{
+    "mine":[{
+        "name":"イエッサン",
+        "isUse":false,
+        "isDown":false
+    },
+    {
+        "name":"ヒヒダルマ",
+        "isUse":true,
+        "isDown":false
+    },
+    {
+        "name":"ドラパルト",
+        "isUse":true,
+        "isDown":false
+    },
+    {
+        "name":"エルフーン",
+        "isUse":true,
+        "isDown":false
+    },
+    {
+        "name":"トリトドン",
+        "isUse":false,
+        "isDown":false
+    },
+    {
+        "name":"アーマーガア",
+        "isUse":true,
+        "isDown":false
+    }
+
+    ],
+    "opponent":[{
+        "name":"ヒヒダルマ",
+        "isUse":true,
+        "isDown":false
+    },
+    {
+        "name":"ドラパルト",
+        "isUse":true,
+        "isDown":false
+    },
+    {
+        "name":"エルフーン",
+        "isUse":true,
+        "isDown":false
+    },
+    {
+        "name":"アーマーガア",
+        "isUse":true,
+        "isDown":false
+    }
+
+    ]
+}

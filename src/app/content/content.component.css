@@ -2,6 +2,11 @@
     background-color: rgba(0, 0, 0, 0);
             width: 1520px;
 }
+.content{
+    height: 855px;
+    z-index: 1;
+    display: flex;
+}
 app-pokemons{
     display: block;
     background-color: #FCA2CC;

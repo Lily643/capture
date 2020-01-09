@@ -9,6 +9,8 @@ footer {
     font-size: 1.6em;
     line-height: 42.5px;
     display: flex;
+    
+    color: #E3DFFF;
 }
 footer > div{
     width: 640px;

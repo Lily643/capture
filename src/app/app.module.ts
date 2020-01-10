@@ -14,6 +14,8 @@ import {MatCardModule} from '@angular/material/card';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatButtonModule} from '@angular/material/button';
+import {IdbService} from './commonservice/idb.service';
+import { FormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -32,9 +34,10 @@ import {MatButtonModule} from '@angular/material/button';
     MatCardModule,
     MatFormFieldModule,
     MatSlideToggleModule,
-    MatButtonModule
+    MatButtonModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [IdbService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,7 +1,7 @@
 <div>
     <mat-card>
         <h2>live_title</h2>
-        <div><input placeholder="title"></div>
+        <div><input placeholder="title" [(ngModel)]= "captureTemplate.title"></div>
         <div><button mat-flat-button color="primary" (click)="onTitleNotify()">APPLY</button></div>
     </mat-card>
 </div>
@@ -13,13 +13,13 @@
                 <mat-card>
                     <h3>pokemon1</h3>
                     <div>
-                        <input placeholder="name">
+                        <input placeholder="name" [(ngModel)]= "captureTemplate.pokemon1">
                     </div>
                     <div>
-                        <mat-slide-toggle>use</mat-slide-toggle>
+                        <mat-slide-toggle [(ngModel)]= "captureTemplate.use_pokemon1">use</mat-slide-toggle>
                     </div>
                     <div>
-                        <mat-slide-toggle>down</mat-slide-toggle>
+                        <mat-slide-toggle [(ngModel)]= "captureTemplate.down_pokemon1">down</mat-slide-toggle>
                     </div>
                 </mat-card>
             </div>
@@ -27,13 +27,13 @@
                 <mat-card>
                     <h3>pokemon2</h3>
                     <div>
-                        <input placeholder="name">
+                        <input placeholder="name" [(ngModel)]= "captureTemplate.pokemon2">
                     </div>
                     <div>
-                        <mat-slide-toggle>use</mat-slide-toggle>
+                        <mat-slide-toggle [(ngModel)]= "captureTemplate.use_pokemon2">use</mat-slide-toggle>
                     </div>
                     <div>
-                        <mat-slide-toggle>down</mat-slide-toggle>
+                        <mat-slide-toggle [(ngModel)]= "captureTemplate.down_pokemon2">down</mat-slide-toggle>
                     </div>
                 </mat-card>
             </div>
@@ -41,13 +41,13 @@
                 <mat-card>
                     <h3>pokemon3</h3>
                     <div>
-                        <input placeholder="name">
+                        <input placeholder="name" [(ngModel)]= "captureTemplate.pokemon3">
                     </div>
                     <div>
-                        <mat-slide-toggle>use</mat-slide-toggle>
+                        <mat-slide-toggle  [(ngModel)]= "captureTemplate.use_pokemon3">use</mat-slide-toggle>
                     </div>
                     <div>
-                        <mat-slide-toggle>down</mat-slide-toggle>
+                        <mat-slide-toggle [(ngModel)]= "captureTemplate.down_pokemon3">down</mat-slide-toggle>
                     </div>
                 </mat-card>
             </div>
@@ -58,13 +58,13 @@
                 <mat-card>
                     <h3>pokemon4</h3>
                     <div>
-                        <input placeholder="name">
+                        <input placeholder="name" [(ngModel)]= "captureTemplate.pokemon4">
                     </div>
                     <div>
-                        <mat-slide-toggle>use</mat-slide-toggle>
+                        <mat-slide-toggle  [(ngModel)]= "captureTemplate.use_pokemon4">use</mat-slide-toggle>
                     </div>
                     <div>
-                        <mat-slide-toggle>down</mat-slide-toggle>
+                        <mat-slide-toggle [(ngModel)]= "captureTemplate.down_pokemon4">down</mat-slide-toggle>
                     </div>
                 </mat-card>
             </div>
@@ -72,13 +72,13 @@
                 <mat-card>
                     <h3>pokemon5</h3>
                     <div>
-                        <input placeholder="name">
+                        <input placeholder="name" [(ngModel)]= "captureTemplate.pokemon5">
                     </div>
                     <div>
-                        <mat-slide-toggle>use</mat-slide-toggle>
+                        <mat-slide-toggle [(ngModel)]= "captureTemplate.use_pokemon5">use</mat-slide-toggle>
                     </div>
                     <div>
-                        <mat-slide-toggle>down</mat-slide-toggle>
+                        <mat-slide-toggle [(ngModel)]= "captureTemplate.down_pokemon5">down</mat-slide-toggle>
                     </div>
                 </mat-card>
             </div>
@@ -86,18 +86,18 @@
                 <mat-card>
                     <h3>pokemon6</h3>
                     <div>
-                        <input placeholder="name">
+                        <input placeholder="name" [(ngModel)]= "captureTemplate.pokemon6">
                     </div>
                     <div>
-                        <mat-slide-toggle>Use</mat-slide-toggle>
+                        <mat-slide-toggle  [(ngModel)]= "captureTemplate.use_pokemon6">Use</mat-slide-toggle>
                     </div>
                     <div>
-                        <mat-slide-toggle>Down</mat-slide-toggle>
+                        <mat-slide-toggle [(ngModel)]= "captureTemplate.down_pokemon6">Down</mat-slide-toggle>
                     </div>
                 </mat-card>
             </div>
         </div>
-        <div><button mat-flat-button color="primary">APPLY</button></div>
+        <div><button mat-flat-button color="primary" (click)="onTitleNotify()">APPLY</button></div>
     </mat-card>
 </div>
 <div>
@@ -109,13 +109,13 @@
                 <mat-card>
                     <h3>pokemon1</h3>
                     <div>
-                        <input placeholder="name">
+                        <input placeholder="name" [(ngModel)]= "captureTemplate.pokemon7">
                     </div>
                     <div>
-                        <mat-slide-toggle>use</mat-slide-toggle>
+                        <mat-slide-toggle  [(ngModel)]= "captureTemplate.use_pokemon7">use</mat-slide-toggle>
                     </div>
                     <div>
-                        <mat-slide-toggle>down</mat-slide-toggle>
+                        <mat-slide-toggle [(ngModel)]= "captureTemplate.down_pokemon7">down</mat-slide-toggle>
                     </div>
                 </mat-card>
             </div>
@@ -123,13 +123,13 @@
                 <mat-card>
                     <h3>pokemon2</h3>
                     <div>
-                        <input placeholder="name">
+                        <input placeholder="name" [(ngModel)]= "captureTemplate.pokemon8">
                     </div>
                     <div>
-                        <mat-slide-toggle>use</mat-slide-toggle>
+                        <mat-slide-toggle  [(ngModel)]= "captureTemplate.use_pokemon8">use</mat-slide-toggle>
                     </div>
                     <div>
-                        <mat-slide-toggle>down</mat-slide-toggle>
+                        <mat-slide-toggle [(ngModel)]= "captureTemplate.down_pokemon8">down</mat-slide-toggle>
                     </div>
                 </mat-card>
             </div>
@@ -140,13 +140,13 @@
                 <mat-card>
                     <h3>pokemon3</h3>
                     <div>
-                        <input placeholder="name">
+                        <input placeholder="name" [(ngModel)]= "captureTemplate.pokemon9">
                     </div>
                     <div>
-                        <mat-slide-toggle>use</mat-slide-toggle>
+                        <mat-slide-toggle  [(ngModel)]= "captureTemplate.use_pokemon9">use</mat-slide-toggle>
                     </div>
                     <div>
-                        <mat-slide-toggle>down</mat-slide-toggle>
+                        <mat-slide-toggle [(ngModel)]= "captureTemplate.down_pokemon9">down</mat-slide-toggle>
                     </div>
                 </mat-card>
             </div>
@@ -154,18 +154,18 @@
                 <mat-card>
                     <h3>pokemon4</h3>
                     <div>
-                        <input placeholder="name">
+                        <input placeholder="name" [(ngModel)]= "captureTemplate.pokemon10">
                     </div>
                     <div>
-                        <mat-slide-toggle>use</mat-slide-toggle>
+                        <mat-slide-toggle  [(ngModel)]= "captureTemplate.use_pokemon10">use</mat-slide-toggle>
                     </div>
                     <div>
-                        <mat-slide-toggle>down</mat-slide-toggle>
+                        <mat-slide-toggle [(ngModel)]= "captureTemplate.down_pokemon10">down</mat-slide-toggle>
                     </div>
                 </mat-card>
             </div>
 
         </div>
-        <div><button mat-flat-button color="primary">APPLY</button></div>
+        <div><button mat-flat-button color="primary" (click)="onTitleNotify()">APPLY</button></div>
     </mat-card>
 </div>
